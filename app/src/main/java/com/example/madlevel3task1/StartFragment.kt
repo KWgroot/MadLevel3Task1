@@ -25,7 +25,7 @@ class StartFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         btnStart.setOnClickListener{
             findNavController().navigate(
-                R.id.action_FirstFragment_to_SecondFragment
+                R.id.action_startFragment_to_ratingFragment
             )
         }
     }
